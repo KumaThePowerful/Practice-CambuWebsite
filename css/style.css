@@ -1,0 +1,139 @@
+/*IMPORTS*/
+@import url('https://fonts.googleapis.com/css2?family=Arimo:wght@500&display=swap');
+
+/*Reset*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*BODY*/
+body{
+    font-family: "Arimo",sans-serif;
+}
+
+/* NAV */
+.nav_bar {
+    background-color: #12181c;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    height: 10vh;
+    flex-wrap: wrap;
+}
+
+.nav_bar a {
+    color: #ffffea;
+    text-decoration: none;
+    font-size: 120%;
+    font-family: "Arimo", sans-serif-;
+}
+
+.nav_div_link {
+    display: flex;
+    width: 45%;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+    padding: 0;
+}
+
+.nav_div_logo {
+    display: flex;
+    justify-content: center;
+    width: 10%;
+}
+
+.nav_logo {
+    height: 10vh;
+    border-radius: 10%;
+}
+
+/*MAIN*/
+main {
+    height: 85vh;
+}
+
+h2{
+    text-align: center;
+}
+
+.section_main_index {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background-image: url("../img/index_bg.png");
+    background-size: cover;
+    background-position: center center;
+}
+
+.main_img{
+    background-color: #ffffea;
+    border-radius: 48%;
+}
+
+.main_bg_contacto{
+    background-image: url("../img/contacto_bg.jpg"); 
+}
+
+.main_div_h1{
+    text-align: center ;
+    height: 30%;
+    background-color: #ffffeabe;
+}
+
+.main_div_h1 h1{
+    color: #df0101;
+}
+
+.main_div_p{
+    text-align: left;
+    padding: 2%;
+}
+
+.main_div_h2{
+    height: 70%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.main_span_logos{
+    display: grid;
+    align-items: center;
+    margin: 2%;
+}
+
+.main_span_logos h2{
+    background-color:#ffffeabe;
+}
+
+.main_div_logos{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+
+
+.main_bg_contacto img{
+    height: 20vh;
+    background-color: #ffffea;
+    border-radius: 50%;
+}
+
+
+
+/* FOOTER */
+
+footer{
+    height: 5vh;
+}
+.footer{
+    background-color: #ffffea;
+    font-size: 80%;
+}
+
+
